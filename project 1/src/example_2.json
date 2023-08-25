@@ -1,0 +1,103 @@
+{
+   "Candidates":[
+      {
+         "name":"Monica",
+         "age":40,
+         "hobby":{
+            "reading":null,
+            "gaming":null,
+            "sport":"football"
+         }
+      },
+      {
+         "name":"Chandler",
+         "age":26,
+         "hobby":{
+            "reading":true,
+            "gaming":null,
+            "sport":"handball"
+         }
+      },
+      {
+         "name": "Rachel",
+         "age": 30,
+         "hobby": {
+            "reading": true,
+            "gaming": null,
+            "sport": "handball"
+         }
+      },
+      {
+         "name":"Ross",
+         "age":null,
+         "hobby":{
+            "reading":null,
+            "gaming":null,
+            "sport":"handball"
+         }
+      },
+      {
+         "name":"Monica",
+         "age":40,
+         "hobby":{
+            "reading":null,
+            "gaming":null,
+            "sport":"football"
+         }
+      },
+      {
+         "name":"Phobee",
+         "age":35,
+         "hobby":{
+            "reading":true,
+            "gaming": "guitar-hero",
+            "sport":"swinming"
+         }
+      },
+      {
+         "name":"Joey",
+         "age":33,
+         "hobby":{
+            "reading":null,
+            "gaming":null,
+            "sport":"baseball"
+         }
+      },
+      {
+         "name":"Phobee",
+         "age":35,
+         "hobby":{
+            "reading":true,
+            "gaming": "guitar-hero",
+            "sport":"swinming"
+         }
+      },
+      {
+   "name":"Chandler",
+   "age":26,
+   "hobby":{
+      "reading":true,
+      "gaming":null,
+      "sport":"handball"
+   }
+},
+      {
+   "name": "Rachel",
+   "age": 30,
+   "hobby": {
+      "reading": true,
+      "gaming": null,
+      "sport": "handball"
+   }
+},
+      {
+         "name": "Ross",
+         "age": null,
+         "hobby": {
+            "reading": null,
+            "gaming": null,
+            "sport": "handball"
+         }
+      }
+   ]
+}
