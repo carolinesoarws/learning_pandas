@@ -1,6 +1,7 @@
+# import pandas framework
 import pandas as pd
 
-
+# reading a csv file and creating a DataFrame
 my_df = pd.read_csv("data_new.csv")
 print(my_df["Date"][22])
 print(my_df["Date"][26])

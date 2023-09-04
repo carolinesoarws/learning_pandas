@@ -2,6 +2,7 @@ import pymysql
 import mysql.connector
 from sqlalchemy import create_engine
 
+
 def mysql_connection():
     host = 'db-test.c5drx2ef5eqh.us-east-1.rds.amazonaws.com'
     port = 3306

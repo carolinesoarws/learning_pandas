@@ -1,6 +1,7 @@
 import pandas as pd
+from pandas import json_normalize
 import json
-from conection_mysql import mysql_connection
+
 
 #data = ""
 # load json data
@@ -10,7 +11,7 @@ mydata = open("example_2.json", "r").read()
 mydata = json.loads(mydata)
 print(mydata)
 
-# Turning my json into a dataframe
+# reading a my json into a dataframe
 mydf = pd.json_normalize(mydata, record_path="Candidates")
 print(mydf.to_string())
 
@@ -31,7 +32,10 @@ mydf["hobby.reading"].fillna("True", inplace=True)
 print(mydf)
 print(mydf.to_string())
 
-engine = mysql_connection()
-mydf.to_sql(con=engine, name='candidates', if_exists='append', index=False)
+# generating a file csv with my df
+mydf.to_csv("table_candidates", sep=",")
 
-print(mydf)
+
+
+
+

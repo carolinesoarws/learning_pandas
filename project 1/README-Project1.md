@@ -1,19 +1,25 @@
 # Project 1 - Carol Soares
 
 ### Scope of the project
- - Parse a Json file write into a txt file
+ - Working with a json
 
-### Tasks
+### Challenge 1
 - Read a json file 
-- Validate this json file 
+- Creating the Dataframe
+- Validate if the dataframe has:
   - This file has duplicates?
   - This file has null values?
   - This file has Empty values?
-- Write the json into a file 
-  - What is the type of the file?
-  - is this file going to open in another software
-  - Do we have to secure ou encrypt any value?
-  - Must have any specific tyme?
+- Write the json into a csv file
+
+### Challenge 2
+- Read a json file 
+- Creating the Dataframe
+- Validate if the dataframe has:
+  - This file has duplicates?
+  - This file has null values?
+  - This file has Empty values?
+- Save into a table in Mysql
 
 ### Softwares and else
 For this project we are going to use Phyton, pandas.
